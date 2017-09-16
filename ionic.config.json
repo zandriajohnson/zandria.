@@ -1,5 +1,8 @@
 {
   "name": "zandria.",
   "app_id": "dbdd5bac",
-  "type": "ionic-angular"
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
 }

@@ -1,18 +1,13 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
+
 @Component({
-  selector: 'page-contact',
-  templateUrl: 'contact.html'
+  templateUrl: 'naturalHair.html'
 })
-export class ContactPage {
+export class NaturalHairPage {
 
   constructor(public navCtrl: NavController) {
-  }
 
-  card = {}
-  bussCardForm(){
-    console.log(this.card)
   }
-
 }

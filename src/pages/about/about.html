@@ -6,6 +6,24 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-
-</ion-content>
+<ion-content class="card-background-page">
+ 
+    <ion-card (click)="goToHair()">
+        <img src="assets/img/IMG_1340.JPG"/>
+        <div class="card-title">Natural Hair Journey</div>
+        <div class="card-subtitle"><b>May 29, 2015</b></div>
+      </ion-card>
+    
+      <ion-card (click)="goToExcellence()">
+        <img src="assets/img/IMG_2682.JPG"/>
+        <div class="card-title">#BlackExcellence</div>
+        <div class="card-subtitle"><b>Embrace your worthiness.</b></div>
+      </ion-card>
+    
+      <ion-card (click)="goToExp()">
+        <img src="assets/img/IMG_6584.JPG"/>
+        <div class="card-title">Experiences</div>
+        <div class="card-subtitle"><b>7 Listings</b></div>
+      </ion-card>
+ 
+  </ion-content>
