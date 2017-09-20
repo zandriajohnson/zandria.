@@ -1,0 +1,28 @@
+<ion-header>
+    <ion-navbar>
+      <ion-title>
+        Business Cards
+      </ion-title>
+    </ion-navbar>
+  </ion-header>
+
+
+<ion-content>
+  <ion-list>
+
+    <ion-item>
+          <ion-avatar item-start>
+            <img src="assets/img/busscards.jpg">
+          </ion-avatar>
+          <h2>Zandria Johnson</h2>
+          <p> University of Missouri, zj5ff@mail.missouri.edu</p>
+    </ion-item>   
+    <ion-item *ngFor='let c of card'>
+        <ion-avatar item-start>
+          <img src="assets/img/busscards.jpg">
+        </ion-avatar>
+        <h2>{{c.name}}</h2>
+        <p> {{c.company}}, {{c.email}}</p>
+      </ion-item>  
+  </ion-list>
+</ion-content>

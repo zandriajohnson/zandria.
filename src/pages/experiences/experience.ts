@@ -3,7 +3,7 @@ import { NavController } from 'ionic-angular';
 
 
 @Component({
-  templateUrl: 'about.html'
+  templateUrl: 'experience.html'
 })
 export class ExperiencePage {
 

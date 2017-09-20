@@ -7,6 +7,10 @@ import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
+import { BlackExcellencePage } from '../pages/blackExcellence/blackExcellence';
+import { NaturalHairPage } from '../pages/naturalHair/naturalHair';
+import { ExperiencePage } from '../pages/experiences/experience';
+import { ContactListPage } from '../pages/contactList/contactList';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -17,7 +21,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    BlackExcellencePage,
+    NaturalHairPage,
+    ExperiencePage,
+    ContactListPage
   ],
   imports: [
     BrowserModule,
@@ -29,7 +37,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    BlackExcellencePage,
+    NaturalHairPage,
+    ExperiencePage,
+    ContactListPage
   ],
   providers: [
     StatusBar,
